@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<web-app>
+
+    <display-name> Teste de aplicação de servlets</display-name>
+    <description> Aplicação de testes</description>
+
+    <servlet>
+        <servlet-name> Minha servlet</servlet-name>
+        <servlet-class> OlaMundo.olaMundo</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+     <servlet-name> OlaMundo</servlet-name>
+        <url-pattern>/olaMundo</url-pattern>
+    </servlet-mapping>
+
+</web-app>
